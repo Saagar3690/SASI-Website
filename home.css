@@ -1,0 +1,385 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: 'Raleway', sans-serif;
+  style: bold;
+}
+
+body {
+    background-color: #303030;
+}
+
+.text-center {
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+}
+
+.nav-btn {
+  border-radius: 24px;
+  font-size: 15px;
+  color: #fff;
+  border-color: #fff;
+  background: transparent;
+  height:40px;
+  width: 120px;
+  font-weight: bold;
+}
+
+.nav-btn:hover {
+  background:#fff;
+  color: #000;
+}
+
+#links {
+  font-size: 15px;
+}
+
+#Home {
+  color: white;
+}
+
+#Home:hover {
+  font-weight: bold;
+  text-decoration: none;
+  color: #e5e5e5;
+}
+
+#nav {
+  color: white;
+}
+
+#nav:hover {
+  font-weight: bold;
+  text-decoration: none;
+  color: #e5e5e5;
+  font-size: 16px;
+}
+
+#bubble {
+  position: relative;
+  background-color: black;
+  opacity: 0.3;
+  z-index: 1;
+  -webkit-filter:blur(8px);
+  margin: auto;
+  margin-top: 100px;
+  width: 75%;
+  height: 50%;
+}
+
+#hero-text {
+  position: absolute;
+  z-index: 1000;
+  width: 100%;
+  margin-top: -23%;
+}
+
+.btn-warning {
+  width: 8%;
+  margin-left: 46%;
+  margin-right: 46%;
+}
+
+h2 {
+  font-family: 'Bad Script', cursive;
+  font-size: 30px;
+  font-style: italic;
+  color: #fff;
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Paytone One', sans-serif;
+  font-size: 100px;
+  text-align: center;
+  color: #fff;
+}
+
+#hero {
+  background-image: url("images/Taj-Mahal.jpg");
+  background-size: cover;
+  background-position: center bottom;
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+
+#infopan {
+  padding-bottom: 7%;
+  width: 100%;
+  background-color: #f0ad4e;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 93%);
+}
+
+#title{
+  padding-top: 1%;
+  color: #191919;
+  text-align: center;
+  width: 100%;
+  font-size: 50px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+#info, #link {
+  text-align: center;
+  font-size: 25px;
+  margin-left: 5%;
+  width: 90%;
+  margin-right: 5%;
+}
+
+#head {
+	font-size: 30px;
+	text-align: center;
+}
+
+/* Flag Slideshow */
+#slider {
+  border-radius: 15px;
+	border-color: black;
+	border-width: 10px;
+	border-style: solid;
+  overflow: hidden;
+  margin-left: 5%;
+  margin-right: 5%;
+  width: 90%;
+  margin-bottom: 3%;
+}
+
+#slider figure {
+  position: relative;
+  width: 800%;
+  margin: 0;
+  left: 0;
+  animation: 24s slider infinite;
+}
+
+#slider figure img {
+  width: 12.5%;
+  height: 800px;
+  float: left;
+}
+
+
+@keyframes slider {
+  0% { left: 0; }
+  10% { left:0; }
+  12.5% { left:-100%; }
+  22.5% { left:-100%; }
+  25% { left: -200%; }
+  35% { left: -200%; }
+  37.5% { left: -300%; }
+  47.5% { left: -300%; }
+  50% { left: -400%; }
+  60% { left: -400%; }
+  62.5% { left: -500%; }
+  72.5% { left: -500%; }
+  75% { left: -600%; }
+  85% { left: -600%; }
+  87.5% { left: -700%; }
+  97.5% { left: -700%; }
+  100% { left: -800%; }
+}
+
+#team {
+  margin-bottom: 3%;
+}
+
+#title-2 {
+  color: #fff;;
+  text-align: center;
+  width: 100%;
+  font-size: 50px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+  float: left;
+  margin-left: 2.5%;
+  width: 30%;
+  padding: 5px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+#shreya, #annapurna, #sushant {
+  border-radius: 25%;
+	height: 80%;
+  margin-bottom: 2%;
+}
+
+#name-1, #name-2, #name-3 {
+  color: #fff;
+  font-size: 20px;
+  text-align: center;
+}
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+#studies {
+  padding-bottom: 7%;
+  background-color: #f0ad4e;
+  clip-path: polygon(0 7%, 100% 0, 100% 93%, 0 100%);
+}
+
+#title-3 {
+  color: #191919;
+  text-align: center;
+  width: 100%;
+  font-size: 50px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+#title-3, #study-1, #study-2 {
+  padding: 5%;
+}
+.column-2 {
+  float: left;
+  margin-left: 2.5%;
+  width: 45%;
+  padding: 5px;
+}
+
+/* Clear floats after image containers */
+.row-2::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+#study-1, #study-2 {
+  font-size: 30px;
+}
+
+#study-1 {
+  margin-top: -19%;
+}
+
+#study-2 {
+  margin-top: -18%;
+}
+
+
+
+/*Navigation Menu */
+
+.custom-navigation {
+  background: transparent;
+  height: 70px;
+  width: 100%;
+  z-index: 999999999999;
+}
+
+.custom-navigation #logo {
+  color: #fff;
+  padding: 20px 0 0 25px;
+  font-size: 24px;
+}
+
+.custom-navigation #links, #logo {
+  display: inline-block;
+}
+
+.custom-navigation #links {
+  list-style: none;
+  padding: 0;
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 20px 25px 0 0;
+}
+
+/* Custom visible class */
+.custom-navigation > #links.visible {
+  background: rgba(0,0,0,0.7);
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.custom-navigation #links > li {
+  display: inline-block;
+  color: #fff;
+  padding-right: 20px;
+}
+
+.custom-navigation #links.visible > li {
+  display: block;
+  padding-right: 0;
+  margin-top: 15px;
+  font-size: 20px;
+}
+
+.push-about {
+  color: #fff;
+  background-color: #f0ad4e;
+  border-color: #000;
+  margin-left: 6%;
+  width: 45%;
+  border-radius: 45px;
+  color: #1d1d1d;
+  display: inline-block;
+  border-radius: 5px;
+  padding: 10px 18px;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 1px;
+  -moz-transition: all 0.2s;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+.push-about:hover {
+    background: #f49400;
+}
+
+/* Media Queries */
+@media(max-width: 767px) {
+  /* Mobile Nav */
+
+.custom-navigation > #links {
+  display: none;
+  padding: 0;
+}
+
+#close {
+  display: none;
+}
+
+  .sm-dev-padding {
+    padding-top: 60px;
+  }
+}
+
+
+#footer {
+  clip-path: polygon(0 7%, 100% 0, 100% 100%, 0 100%);
+  margin-top: -6%;
+  background-color: white;
+  text-align: center;
+}
+
+#link-to-page {
+  margin-left: 45%;
+  margin-right: 45%;
+  text-align: center;
+  font-size: calc(16px + 0.5vw);
+}
+
+#link-to-page:hover {
+  text-decoration: none;
+}

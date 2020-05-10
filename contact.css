@@ -1,0 +1,288 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: 'Raleway', sans-serif;
+  style: bold;
+}
+
+body {
+    background-color: #303030;
+}
+
+.text-center {
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+}
+
+.nav-btn {
+  border-radius: 24px;
+  font-size: 15px;
+  color: #fff;
+  border-color: #fff;
+  background: transparent;
+  height:40px;
+  width: 120px;
+  font-weight: bold;
+}
+
+.nav-btn:hover {
+  background:#fff;
+  color: #000;
+}
+
+#links {
+  font-size: 15px;
+}
+
+#Home {
+  color: white;
+}
+
+#Home:hover {
+  font-weight: bold;
+  text-decoration: none;
+  color: #e5e5e5;
+}
+
+#nav {
+  color: white;
+}
+
+#nav:hover {
+  font-weight: bold;
+  text-decoration: none;
+  color: #e5e5e5;
+  font-size: 16px;
+}
+
+#bubble {
+  position: relative;
+  background-color: black;
+  opacity: 0.3;
+  z-index: 1;
+  -webkit-filter:blur(8px);
+  margin: auto;
+  margin-top: 100px;
+  width: 75%;
+  height: 50%;
+}
+
+#hero-text {
+  position: absolute;
+  z-index: 1000;
+  width: 100%;
+  margin-top: -16%;
+}
+
+.btn-warning {
+  width: 8%;
+  margin-left: 46%;
+  margin-right: 46%;
+}
+
+h2 {
+  font-family: 'Bad Script', cursive;
+  font-size: 30px;
+  font-style: italic;
+  color: #fff;
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Paytone One', sans-serif;
+  font-size: 100px;
+  text-align: center;
+  color: #fff;
+}
+
+#hero {
+  background-image: url("images/Taj-Mahal-2.jpg");
+  background-size: cover;
+  background-position: center bottom;
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+
+#head {
+	font-size: 30px;
+	text-align: center;
+}
+
+/*Navigation Menu */
+
+.custom-navigation {
+  background: transparent;
+  height: 70px;
+  width: 100%;
+  z-index: 999999999999;
+}
+
+.custom-navigation #logo {
+  color: #fff;
+  padding: 20px 0 0 25px;
+  font-size: 24px;
+}
+
+.custom-navigation #links, #logo {
+  display: inline-block;
+}
+
+.custom-navigation #links {
+  list-style: none;
+  padding: 0;
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 20px 25px 0 0;
+}
+
+/* Custom visible class */
+.custom-navigation > #links.visible {
+  background: rgba(0,0,0,0.7);
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.custom-navigation #links > li {
+  display: inline-block;
+  color: #fff;
+  padding-right: 20px;
+}
+
+.custom-navigation #links.visible > li {
+  display: block;
+  padding-right: 0;
+  margin-top: 15px;
+  font-size: 20px;
+}
+
+.push-about {
+  color: #fff;
+  background-color: #f0ad4e;
+  border-color: #000;
+  margin-left: 6%;
+  width: 45%;
+  border-radius: 45px;
+  color: #1d1d1d;
+  display: inline-block;
+  border-radius: 5px;
+  padding: 10px 18px;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 1px;
+  -moz-transition: all 0.2s;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+.push-about:hover {
+    background: #f49400;
+}
+
+/* Media Queries */
+@media(max-width: 767px) {
+  /* Mobile Nav */
+
+.custom-navigation > #links {
+  display: none;
+  padding: 0;
+}
+
+#close {
+  display: none;
+}
+
+  .sm-dev-padding {
+    padding-top: 60px;
+  }
+}
+
+#footer {
+  background-color: #fff;
+  margin-top: 15%;
+  text-align: center;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+#contact-us {
+  color:#fff;
+  text-align: center;
+  margin-top: 2%;
+  font-size: 30px;
+}
+
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=email], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+
+button[type=submit] {
+    background-color: #f0ad4e;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+button[type=submit]:hover {
+    background-color: #df8a13;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+		width: 90%;
+		margin-top: 2%;
+    border-radius: 15px;
+    background-color: #f0ad4e;
+    padding: 20px;
+    font-family: Times;
+    font-size: 20px;
+}
+
+input, textarea {
+  background-color: #eee;
+}
+
+label {
+  font-size: 30px;
+	font-weight: bold;
+  color: #101010;
+}
+
+#honeypot {
+  display: none;
+}
